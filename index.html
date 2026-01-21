@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Academy</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="ri-line-chart-line"></i>
+      <span>Market<span class="accent">Academy</span></span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="btn-white">Get Started</button>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-badge"><span class="dot"></span> New batch starting soon</div>
+    <h1>Master the Market<br><span class="accent">With Confidence</span></h1>
+    <p>Join thousands of beginners who are transforming their financial future through structured, expert-led trading education.</p>
+    <div class="hero-actions">
+      <button class="btn-primary">Start Learning Now</button>
+      <button class="btn-outline" onclick="openDemo()"><i class="ri-play-circle-line"></i> Watch Demo</button>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE SECTION -->
+  <section class="why" id="about">
+    <h2>Why Choose Market Academy?</h2>
+    <p class="why-sub">We break down complex financial concepts into simple, actionable steps.</p>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="icon"><i class="ri-bar-chart-2-line"></i></div>
+        <h3>Technical Analysis</h3>
+        <p>Master charts, patterns and indicators to predict market movements.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="icon"><i class="ri-team-line"></i></div>
+        <h3>Fundamental Research</h3>
+        <p>Learn to evaluate companies, macroeconomics and global trends.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="icon"><i class="ri-shield-check-line"></i></div>
+        <h3>Risk Management</h3>
+        <p>Protect your capital with proper risk control and position sizing.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="icon"><i class="ri-brain-line"></i></div>
+        <h3>Trading Psychology</h3>
+        <p>Develop the mindset and discipline of a professional trader.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED COURSES -->
+  <section class="courses" id="courses">
+    <div class="courses-header">
+      <h2>Featured Courses</h2>
+      <a href="#" class="view-all">View All Courses →</a>
+    </div>
+
+    <p class="course-sub">Start your journey with our most popular programs.</p>
+
+    <div class="course-grid">
+
+      <div class="course-card">
+        <div class="badge">Beginner</div>
+        <img src="https://placehold.co/600x350?text=Stock+Charts" alt="">
+        <h3>Stock Market 101</h3>
+        <button class="btn-course">View Details</button>
+      </div>
+
+      <div class="course-card">
+        <div class="badge">Beginner</div>
+        <img src="https://placehold.co/600x350?text=Crypto+Basics" alt="">
+        <h3>Crypto Basics</h3>
+        <button class="btn-course">View Details</button>
+      </div>
+
+      <div class="course-card">
+        <div class="badge">Intermediate</div>
+        <img src="https://placehold.co/600x350?text=Advanced+Charts" alt="">
+        <h3>Advanced Charting</h3>
+        <button class="btn-course">View Details</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE SECTION -->
+  <section class="subscribe">
+    <h2>Stay Ahead of the Market</h2>
+    <p>Get weekly insights, updates and free learning resources sent to your inbox.</p>
+    <div class="sub-form">
+      <input type="email" placeholder="Enter your email">
+      <button class="btn-primary">Subscribe</button>
+    </div>
+    <small>No spam, unsubscribe anytime.</small>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo">
+          <i class="ri-line-chart-line"></i>
+          <span>Market<span class="accent">Academy</span></span>
+        </div>
+        <p>Empowering the next generation of traders with simplified knowledge and expert guidance.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <a href="#">Courses</a>
+        <a href="#">Mentorship</a>
+        <a href="#">Daily Analysis</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Social</h4>
+        <div class="socials">
+          <i class="ri-twitter-line"></i>
+          <i class="ri-facebook-line"></i>
+          <i class="ri-instagram-line"></i>
+          <i class="ri-linkedin-line"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© 2026 Market Academy. All rights reserved.</div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="demoVideo" width="100%" height="420" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
